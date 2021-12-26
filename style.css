@@ -1,0 +1,92 @@
+body {
+    background-color: #0D1A2D;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+    margin-top: 12vh;
+    height: 75vh;
+    width: 25vw;
+    background-color: #15273F;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.30);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+
+}
+
+.box:hover {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.30);
+    transition: 0.5s;
+}
+
+.img {
+    height: 35vh;
+    width: 20vw;
+  
+    border-radius: 15px;
+}
+
+.box p {
+font-size: 2em;
+text-shadow:5px 5px 5px 5px black;
+
+}
+
+.box span {
+    color: #6a798d;
+    
+}
+
+.row1 {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.6em;
+    border-bottom: solid #0D1A2D;
+    justify-content: space-between;
+}
+
+.item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1FF1E8;
+   
+    
+}
+
+.item1 img {
+    height: 3vh;
+}
+
+.item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6a798d;
+}
+
+.fer {
+    height: 5vh;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+.row2 {
+    margin-top: 2vh;
+    display: flex;
+    font-size: 0.5em;
+    align-items: center;
+    color: #6a798d;
+}
+
+.row2 span {
+    color: white;
+}
